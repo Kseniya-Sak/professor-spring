@@ -1,0 +1,40 @@
+package spring.controller.dto;
+
+public class SubjectOutGoingDto {
+    private int id;
+    private String name;
+    private int valueOfHours;
+
+    public SubjectOutGoingDto() {
+    }
+
+    public SubjectOutGoingDto(int id, String name, int valueOfHours) {
+        this.id = id;
+        this.name = name;
+        this.valueOfHours = valueOfHours;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getValueOfHours() {
+        return valueOfHours;
+    }
+
+    public void setValueOfHours(int valueOfHours) {
+        this.valueOfHours = valueOfHours;
+    }
+}
